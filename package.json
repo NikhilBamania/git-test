@@ -1,0 +1,28 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "this is a test directory to learn Git and Node",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikhilBamania/git-test.git"
+  },
+  "author": "Nikhil Bamania",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikhilBamania/git-test/issues"
+  },
+  "homepage": "https://github.com/NikhilBamania/git-test#readme",
+  "devDependencies": {
+    "light-server": "^2.9.1",
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "save-dev": "^0.0.1-security"
+  }
+}
